@@ -13,8 +13,15 @@ A Python script to help organize animation project files by type and generate a 
 3. Check `organized_project/` for sorted files
 4. Check `log.csv` for your file report
 
+## How to Run
+1. Clone this repository to your computer
+If you have Git installed, run this in your terminal: https://github.com/jadinwilkening/my-pipeline-pal.git
+2. Navigate into the project folder
+3. Run the Python script:
+python organize.py
+
 ## Why I Built This
-Animation studios (big and small) use lots of digital files. “My Pipeline Pal” makes file management easier, faster, and more studio-ready.
+Animation studios use lots of digital files. “My Pipeline Pal” makes file management easier, faster, and more studio-ready.
 
 ## Technologies
 - Python 3

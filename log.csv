@@ -1,11 +1,62 @@
+My Pipeline Pal Log Summary - 2025-07-10 17:22:19
+Total files processed: 53
+ - Known File Types: 50
+ - Unknown File Types: 3
+Duplicate Files Renamed: 53
+Total Size: 0.0 MB
+----------------------------------------
+
 File Name,Type,Size (KB),New Location
-animation.mp4,.mp4,0.0,video
-animation2.mp4,.mp4,0.0,video
-background.jpg,.jpg,0.0,images
-background2.jpg,.jpg,0.0,images
-scene1.blend,.blend,0.0,scenes
-scene2.blend,.blend,0.0,scenes
-storyboard.png,.png,0.0,images
-storyboard2.png,.png,0.0,images
-voiceover.wav,.wav,0.0,audio
-voiceover2.wav,.wav,0.0,audio
+animation_12.mp4,.mp4,0.0,video
+animation10_10.mp4,.mp4,0.0,video
+animation2_11.mp4,.mp4,0.0,video
+animation3_10.mp4,.mp4,0.0,video
+animation4_10.mp4,.mp4,0.0,video
+animation5_10.mp4,.mp4,0.0,video
+animation6_10.mp4,.mp4,0.0,video
+animation7_10.mp4,.mp4,0.0,video
+animation8_10.mp4,.mp4,0.0,video
+animation9_10.mp4,.mp4,0.0,video
+background_11.jpg,.jpg,0.0,images
+background10_10.jpg,.jpg,0.0,images
+background2_11.jpg,.jpg,0.0,images
+background3_10.jpg,.jpg,0.0,images
+background4_10.jpg,.jpg,0.0,images
+background5_10.jpg,.jpg,0.0,images
+background6_10.jpg,.jpg,0.0,images
+background7_10.jpg,.jpg,0.0,images
+background8_10.jpg,.jpg,0.0,images
+background9_10.jpg,.jpg,0.0,images
+organize_6.py,.py,1.21,misc
+scene1_11.blend,.blend,0.0,scenes
+scene10_10.blend,.blend,0.0,scenes
+scene2_11.blend,.blend,0.0,scenes
+scene3_10.blend,.blend,0.0,scenes
+scene4_10.blend,.blend,0.0,scenes
+scene5_10.blend,.blend,0.0,scenes
+scene6_10.blend,.blend,0.0,scenes
+scene7_10.blend,.blend,0.0,scenes
+scene8_10.blend,.blend,0.0,scenes
+scene9_10.blend,.blend,0.0,scenes
+storyboard_11.png,.png,0.0,images
+storyboard10_10.png,.png,0.0,images
+storyboard2_11.png,.png,0.0,images
+storyboard3_10.png,.png,0.0,images
+storyboard4_10.png,.png,0.0,images
+storyboard5_10.png,.png,0.0,images
+storyboard6_10.png,.png,0.0,images
+storyboard7_10.png,.png,0.0,images
+storyboard8_10.png,.png,0.0,images
+storyboard9_10.png,.png,0.0,images
+test_6.obj,.obj,0.0,misc
+test_6.txt,.txt,0.0,misc
+voiceover_11.wav,.wav,0.0,audio
+voiceover10_10.wav,.wav,0.0,audio
+voiceover2_11.wav,.wav,0.0,audio
+voiceover3_10.wav,.wav,0.0,audio
+voiceover4_10.wav,.wav,0.0,audio
+voiceover5_10.wav,.wav,0.0,audio
+voiceover6_10.wav,.wav,0.0,audio
+voiceover7_10.wav,.wav,0.0,audio
+voiceover8_10.wav,.wav,0.0,audio
+voiceover9_12.wav,.wav,0.0,audio

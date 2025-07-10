@@ -1,0 +1,5 @@
+# Ignore log file and auto generated folders
+log.csv
+organized_project/
+__pycache__/
+*.pyc

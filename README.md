@@ -69,12 +69,14 @@ Here’s how the CSV log file looks when opened:
 
 
 ## Project Structure
+```bash
 my-pipeline-pal/
 │
 ├── organize.py       # Main script to organize files
 ├── view_log.py       # Display CSV log as table
 ├── README.md         # This file
 └── sample_project/   # Example folder with files to organize
+```
 
 ## Dependencies
 

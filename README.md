@@ -1,30 +1,85 @@
 # My Pipeline Pal
 
-A Python script to help organize animation project files by type and generate a file log.
+**My Pipeline Pal** is a Python tool designed to help artists, animators, and creatives quickly organize their project files by type, automatically sorting and logging files into appropriate folders. It’s especially useful in animation pipelines to keep large directories clean, organized, and easy to navigate.
 
-## What It Does
-- Scans a folder of files (like a film or animation project)
-- Sorts files into folders like `/audio`, `/scenes`, `/images`
-- Logs each file’s name, type, size, and destination into a CSV
+---
 
-## How to Use
-1. Put your messy files in a folder called `sample_project`
-2. Run the script
-3. Check `organized_project/` for sorted files
-4. Check `log.csv` for your file report
+## Features
 
-## How to Run
-1. Clone this repository to your computer
-If you have Git installed, run this in your terminal: https://github.com/jadinwilkening/my-pipeline-pal.git
-2. Navigate into the project folder
-3. Run the Python script:
-python organize.py
+- Automatically sorts files by extension into folders like `scenes`, `audio`, `video`, `images`, or `misc` for unknown types  
+- Handles duplicate file names gracefully by renaming copies with numbered suffixes  
+- Generates a detailed CSV log with file names, types, sizes, and their new locations  
+- Displays a formatted summary table of all organized files in the terminal using `tabulate`  
+- Configurable source directory, destination directory, and log file via command-line arguments  
+- Easy-to-understand components (`organize.py` and `view_log.py`)
 
-## Why I Built This
-Animation studios use lots of digital files. “My Pipeline Pal” makes file management easier, faster, and more studio-ready.
+---
 
-## Technologies
-- Python 3
-- CSV file writing
-- File organization with `os` and `shutil`
+## Installation
 
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/jadinwilkening/my-pipeline-pal
+    cd my-pipeline-pal
+    ```
+
+2. Install required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+---
+
+## Usage
+
+Run the organizer script with optional arguments:
+
+```bash
+python organize.py --source <source_folder> --dest <destination_folder> --log <log_file.csv>
+```
+
+---
+
+## Example
+An example organizer script:
+
+```bash
+python organize.py --source sample_project --dest organized_project --log log.csv
+```
+
+If no arguments are provided, defaults are used:
+
+    source: sample_project
+
+    dest: organized_project
+
+    log: log.csv
+
+---
+
+## Sample Output
+
+Here’s screenshots of the log summary displayed after running the script:
+
+!(C:\Users\jadin\OneDrive\Desktop\my-pipeline-pal\images)
+(C:\Users\jadin\OneDrive\Desktop\my-pipeline-pal\images)
+
+
+## Project Structure
+my-pipeline-pal/
+│
+├── organize.py       # Main script to organize files
+├── view_log.py       # Display CSV log as table
+├── README.md         # This file
+└── sample_project/   # Example folder with files to organize
+
+## Dependencies
+
+Install these:
+    Python 3.6+
+    tabulate
+
+Install dependencies using in terminal:
+```bash
+        pip install -r requirements.txt
+```

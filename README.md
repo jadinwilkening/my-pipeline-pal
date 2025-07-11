@@ -59,10 +59,13 @@ If no arguments are provided, defaults are used:
 
 ## Sample Output
 
-Here’s screenshots of the log summary displayed after running the script:
+Here’s a screenshot of the log summary displayed in the terminal:
 
-!(C:\Users\jadin\OneDrive\Desktop\my-pipeline-pal\images)
-(C:\Users\jadin\OneDrive\Desktop\my-pipeline-pal\images)
+![Terminal Display][images/TerminalDisplay.png]
+
+Here’s how the CSV log file looks when opened:
+
+![CSV Table Display][images/CSVTableDisplay.png]
 
 
 ## Project Structure
@@ -83,3 +86,6 @@ Install dependencies using in terminal:
 ```bash
         pip install -r requirements.txt
 ```
+
+[images/TerminalDisplay.png]: images/TerminalDisplay.png
+[images/CSVTableDisplay.png]: images/CSVTableDisplay.png

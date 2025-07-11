@@ -61,11 +61,11 @@ If no arguments are provided, defaults are used:
 
 Here’s a screenshot of the log summary displayed in the terminal:
 
-![Terminal Display][images/TerminalDisplay.png]
+![Terminal Display](images/TerminalDisplay.png)
 
 Here’s how the CSV log file looks when opened:
 
-![CSV Table Display][images/CSVTableDisplay.png]
+![CSV Table Display](images/CSVTableDisplay.png)
 
 
 ## Project Structure

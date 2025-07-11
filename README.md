@@ -77,17 +77,3 @@ my-pipeline-pal/
 ├── README.md         # This file
 └── sample_project/   # Example folder with files to organize
 ```
-
-## Dependencies
-
-Install these:
-    Python 3.6+
-    tabulate
-
-Install dependencies using in terminal:
-```bash
-        pip install -r requirements.txt
-```
-
-[images/TerminalDisplay.png]: images/TerminalDisplay.png
-[images/CSVTableDisplay.png]: images/CSVTableDisplay.png
